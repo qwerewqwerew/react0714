@@ -1,13 +1,27 @@
-import Button from "./Button";
-import { Text } from "./Text";
-import { Img } from "./Img";
+import Child from "./Child";
+import Member from "./Member.jsx";
+import "./style.css";
 
-export default function App() {
+function Name() {
+  return <h1>App안에서 태어난 컴포넌트</h1>;
+}
+
+function App() {
   return (
     <>
-      <Text></Text>
-      <Img />
-      <Button />
+      <Name />
+      <Child></Child>
+      <Child />
+      <Member />
+      <Member />
+      <Member />
+      <Member />
+      <Member />
+      <Member />
+      <Member />
+      <Member />
+      <Member />
     </>
   );
 }
+export default App;
