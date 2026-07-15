@@ -1,4 +1,4 @@
-import Title from "./components/Title.jsx";
+import Title from "./Title.jsx";
 import Picture from "./Picture.jsx";
 
 const List = (props) => {

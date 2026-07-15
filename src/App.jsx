@@ -1,27 +1,15 @@
-import Child from "./Child";
-import Member from "./Member.jsx";
-import "./style.css";
-
-function Name() {
-  return <h1>App안에서 태어난 컴포넌트</h1>;
-}
-
-function App() {
+import Score from "./components/Score";
+const App = (props) => {
   return (
     <>
-      <Name />
-      <Child></Child>
-      <Child />
-      <Member />
-      <Member />
-      <Member />
-      <Member />
-      <Member />
-      <Member />
-      <Member />
-      <Member />
-      <Member />
+      <Score>김망고</Score>
+      <Score>강몽이</Score>
+      <Score>강아지</Score>
+      <Score>가 좋아</Score>
+      <Score>야옹</Score>
+      <Score>1</Score>
+
     </>
   );
-}
+};
 export default App;
