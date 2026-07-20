@@ -1,8 +1,8 @@
-import {} from "react";
-const Child = (props) => {
+const Child = (a) => {
   return (
     <>
-      <h3>Child</h3>
+      <div>Child</div>
+      <div className="text-2xl text-red-500">{a.asset}</div>
     </>
   );
 };
